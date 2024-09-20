@@ -1,11 +1,10 @@
-package com.colak.springjpapostgrestutorial.controller;
+package com.colak.springtutorial.controller;
 
-import com.colak.springjpapostgrestutorial.jpa.Employee;
-import com.colak.springjpapostgrestutorial.repository.EmployeeRepository;
-import com.colak.springjpapostgrestutorial.repository.EmployeeSpecification;
-import com.colak.springjpapostgrestutorial.repository.EmployeeSpecificationRepository;
+import com.colak.springtutorial.jpa.Employee;
+import com.colak.springtutorial.repository.EmployeeRepository;
+import com.colak.springtutorial.repository.EmployeeSpecification;
+import com.colak.springtutorial.repository.EmployeeSpecificationRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
